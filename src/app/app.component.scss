@@ -1,0 +1,116 @@
+.cal-week-view .cal-hour:not(:last-child) .cal-hour-segment, .cal-week-view .cal-hour:last-child :not(:last-child) .cal-hour-segment {
+	border-bottom: none!important;
+}
+
+.cal-hour {
+	border-bottom-color: #e1e1e1!important;
+	border-bottom: 1px solid;
+	margin-top: -1px;
+}
+
+.cal-week-view .cal-hour-odd {
+	background-color: transparent;
+}
+
+.cal-header cal-future {
+	color: #575962;
+}
+
+.cal-week-view .cal-day-headers b {
+	color: #575962!important;
+	font-weight: inherit;
+}
+
+.cal-week-view .cal-day-headers span, .cal-time {
+	color: #575962!important;
+	opacity: 1;
+	font-weight: 100!important;
+}
+
+
+.cal-week-view .cal-time-events, .cal-week-view .cal-day-headers {
+	border-left: none;
+	border-bottom: 0;
+}
+
+
+.cal-week-view .cal-day-headers:first-child :not(:first-child) {
+	border-bottom: none;
+	border-top: none;
+}
+
+.cal-time-label-column .cal-hour {
+	border: none;
+}
+
+.cal-week-view .cal-day-headers {
+	margin-left: 70px;
+	padding-left: 0px;
+	border-top-color: #e1e1e1!important;
+	border-top: 1px solid;
+	border-bottom-color: #e1e1e1!important;
+	border-bottom: 1px solid;
+
+}
+
+.cal-week-view {
+	border-top: none;
+}
+
+.cal-week-view .cal-time {
+	color: #606060!important;
+	font-weight: 300!important;
+}
+
+.cal-week-view .cal-ends-within-day .cal-event {
+	border-radius: 0px;
+	color: #606060;
+	border: none;
+}
+
+.cal-week-view .cal-header.cal-today, .cal-week-view .cal-current-time-marker {
+	background-color: transparent;
+}
+
+.cal-event-actions {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+.time-width {
+	width: 70px;
+	color: #282D43;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+	-moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+	box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+header.navbar {
+	@extend .shadow;
+	height: 71px;
+}
+
+.l-green {
+	color: #A5C549;
+}
+
+.prmary-bg-color {
+	background-color: #09243D;
+	border-color: #09243D;
+}
+
+.prmary-color {
+	color: #09243D;
+}
+
+.bg-white {
+	background: white;
+}
