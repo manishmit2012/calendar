@@ -1,8 +1,5 @@
-name: Build
-on:
-  push:
-    branches:
-      - main
+on: push
+name: Build Angular Project
 
 jobs:
   build:
@@ -25,7 +22,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm ci and npm run build
+      - name: npm ci and npm run build --prod
         run: |
           npm ci
           npm run build:ci
