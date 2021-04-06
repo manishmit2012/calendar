@@ -1,3 +1,5 @@
+[![build status](https://github.com/manishmit2012/calendar/angular-github-actions/workflows/Build/badge.svg)](https://github.com/manishmit2012/calendar/angular-github-actions/actions)
+
 # Calendar
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
